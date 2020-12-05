@@ -1,26 +1,29 @@
 {
-  "name": "backend-pedidos",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Joseffe10/backend-pedidos.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Joseffe10/backend-pedidos/issues"
-  },
-  "homepage": "https://github.com/Joseffe10/backend-pedidos#readme",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "http-status": "^1.4.2",
-    "mysql2": "^2.2.5",
-    "sequelize": "^6.3.5"
-  }
+    "name": "backend_awsl4",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaotanaca/backend-ASWL4"
+    },
+    "author": "joaotanaca",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/joaotanaca/backend-ASWL4/issues"
+    },
+    "homepage": "https://github.com/joaotanaca/backend-ASWL4#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "http-status": "^1.5.0",
+        "mysql2": "^2.2.5",
+        "pg": "^8.5.1",
+        "sequelize": "^6.3.5"
+    }
 }
